@@ -1,0 +1,23 @@
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel ,QHBoxLayout, QVBoxLayout
+
+main_win = QWidget()
+main_win.setWindowTitle("Тест Руф'є")
+main_win.resize(600,600)
+
+realbutton = QPustButton("Почати")
+txt1 = QLabel("Ласкаво просимо до програми визначення стану здоров'я!")
+line1.addWidget(txt1,alignment=Qt.AlignCenter)
+line1.addWidget(txt2,alignment=Qt.AlignCenter)
+
+
+line = QHBoxLayout()
+line.addLayout(line1)
+line.addLayout(line2)
+line1 = QVBoxLayout()
+line2 = QVBoxLayout()
+
+main_win.setLayout(line)
+main_win.show()
+
+app.exec_()
